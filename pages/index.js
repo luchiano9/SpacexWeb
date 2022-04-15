@@ -1,12 +1,16 @@
+import Image from "next/image";
 import Layout from "../components/layout";
 import Title from "../components/title";
 
 export default function Home() {
   return (
     <Layout>
-      <Title>Home Page</Title>
+      <Title>Space X</Title>
 
-      <p>Mi pagina de nextjs</p>
+      <p>Web desarrollada por la cotorreja martina</p>
+
+      <Image src="/images/space.jpg" width={400} height={600} />
+
       <style>
         {`
         p{color: darkgray;}

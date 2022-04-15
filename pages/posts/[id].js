@@ -1,9 +1,14 @@
+import Head from "next/head";
 import Layout from "../../components/layout";
 import Title from "../../components/title";
 
 export default function Post({ post }) {
   return (
     <Layout>
+      <Head>
+        <title>Post #{post.id}</title>
+        <meta name="description" content="Página web de servicios spaceX" />
+      </Head>
       <Title>Post Details</Title>
       <div className="card">
         <h2>{post.title}</h2>
