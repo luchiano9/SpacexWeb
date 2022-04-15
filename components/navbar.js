@@ -10,15 +10,23 @@ export default function Navbar() {
         <a>Users</a>
       </Link>
       <Link href="/posts">
-        <a>Posts</a>
+        <a>Rockets</a>
       </Link>
 
       <style>
         {`
    nav{
-     padding-top: 10px;}
+     padding-top: 20px;}
      a{
-       padding: 0 10px;   }
+       padding: 0 20px;  
+       font-size: 1.5rem;
+       color:black;
+      
+       }
+       a:hover{
+         color:blue;
+       }
+      
   `}
       </style>
 

@@ -7,15 +7,21 @@ export default function Home() {
     <Layout>
       <Title>Space X</Title>
 
-      <p>Web desarrollada por la cotorreja martina</p>
+      <p>Web desarrollada por la comadreja martina</p>
 
-      <Image src="/images/space.jpg" width={400} height={600} />
+      <Image src="/images/space.jpg" width={380} height={560} />
+      <Image src="/images/space2.jpg" width={380} height={560} />
+      <Image src="/images/space3.jpg" width={380} height={560} />
+      <Image src="/images/space4.jpg" width={380} height={560} />
+      <Image src="/images/space5.jpg" width={380} height={560} />
 
       <style>
         {`
-        p{color: darkgray;}
+        p{color: darkgray;
+        text-align:center;}
         
-        p:hover{color: darkred;}
+        p:hover{color: blue;}
+      
         `}
       </style>
     </Layout>

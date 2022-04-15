@@ -1,6 +1,5 @@
 import Navbar from "./navbar";
 import Head from "next/head";
-import Image from "next/dist/client/image";
 
 export default function Layout({ children }) {
   return (
@@ -19,14 +18,6 @@ export default function Layout({ children }) {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
-          }
-
-          main {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
           }
         `}
       </style>

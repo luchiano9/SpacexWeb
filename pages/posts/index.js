@@ -20,7 +20,7 @@ export default function Posts({ posts }) {
 */
   return (
     <Layout>
-      <Title>Posts</Title>
+      <Title>Rockets</Title>
       <div className="grid">
         {posts.map((post) => {
           return (
