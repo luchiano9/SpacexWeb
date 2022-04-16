@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "next/link";
 import Layout from "../../components/layout";
 import Title from "../../components/title";
@@ -23,7 +22,7 @@ export default function Users({ users }) {
       <style jsx>
         {`
           .grid {
-            display: flex;
+           tar display: flex;
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;

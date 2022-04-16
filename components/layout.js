@@ -7,6 +7,11 @@ export default function Layout({ children }) {
       <Head>
         <title>SpaceX WebApp</title>
         <meta name="description" content="Página web de servicios spaceX" />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+        ></link>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
       </Head>
       <Navbar />
       <main>{children}</main>

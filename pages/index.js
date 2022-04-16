@@ -21,7 +21,6 @@ export default function Home() {
         text-align:center;}
         
         p:hover{color: blue;}
-      
         `}
       </style>
     </Layout>
