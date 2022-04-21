@@ -12,6 +12,9 @@ export default function Navbar() {
       <Link href="/posts">
         <a>Rockets</a>
       </Link>
+      <Link href="/abm">
+        <a>ABM</a>
+      </Link>
 
       <style>
         {`

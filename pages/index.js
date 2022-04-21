@@ -9,11 +9,36 @@ export default function Home() {
 
       <p>Web desarrollada por la comadreja martina</p>
 
-      <Image src="/images/space.jpg" width={380} height={560} />
-      <Image src="/images/space2.jpg" width={380} height={560} />
-      <Image src="/images/space3.jpg" width={380} height={560} />
-      <Image src="/images/space4.jpg" width={380} height={560} />
-      <Image src="/images/space5.jpg" width={380} height={560} />
+      <Image
+        src="/images/space.jpg"
+        className="img-fluid"
+        width={380}
+        height={560}
+      />
+      <Image
+        src="/images/space2.jpg"
+        className="img-fluid"
+        width={380}
+        height={560}
+      />
+      <Image
+        src="/images/space3.jpg"
+        className="img-fluid"
+        width={380}
+        height={560}
+      />
+      <Image
+        src="/images/space4.jpg"
+        className="img-fluid"
+        width={380}
+        height={560}
+      />
+      <Image
+        src="/images/space5.jpg"
+        className="img-fluid"
+        width={380}
+        height={560}
+      />
 
       <style>
         {`
