@@ -1,6 +1,5 @@
 import Title from "../title";
 import Layout from "../layout";
-import * as Yup from "yup";
 
 export { AddEdit };
 
