@@ -19,67 +19,6 @@ export default function Users({ users }) {
           );
         })}
       </div>
-      <div>
-        <h1>Users</h1>
-        <table className="table table-striped">
-          <thead>
-            <tr>
-              <th style={{ width: "30%" }} scope="col">
-                Name
-              </th>
-              <th style={{ width: "30%" }} scope="col">
-                Email
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {users &&
-              users.map((user) => (
-                <tr key={user.id}>
-                  <td>
-                    {user.title} {user.name}
-                  </td>
-                  <td>{user.email}</td>
-
-                  <td style={{ whiteSpace: "nowrap" }}>
-                    <button
-                      href={`/users/${user.id}`}
-                      className="btn btn-sm btn-primary mr-1"
-                    >
-                      Edit
-                    </button>
-                    <button
-                      onClick={() => deleteUser(user.id)}
-                      className="btn btn-sm btn-danger btn-delete-user"
-                      disabled={user.isDeleting}
-                    >
-                      {user.isDeleting ? (
-                        <span className="spinner-border spinner-border-sm"></span>
-                      ) : (
-                        <span>Delete</span>
-                      )}
-                    </button>
-                  </td>
-                </tr>
-              ))}
-
-            {!users && (
-              <tr>
-                <td colSpan="4" className="text-center">
-                  <div className="spinner-border spinner-border-lg align-center"></div>
-                </td>
-              </tr>
-            )}
-            {users && !users.length && (
-              <tr>
-                <td colSpan="4" className="text-center">
-                  <div className="p-2">No Users To Display</div>
-                </td>
-              </tr>
-            )}
-          </tbody>
-        </table>
-      </div>
       <style jsx>
         {`
           .grid {

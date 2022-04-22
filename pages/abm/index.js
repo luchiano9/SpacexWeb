@@ -6,7 +6,7 @@ export default function Abm({ users }) {
   return (
     <Layout>
       <Title>Users</Title>
-      <Link href="/abm">
+      <Link href="/abm/add">
         <a class="btn btn-sm btn-success mb-2">Add User</a>
       </Link>
 
