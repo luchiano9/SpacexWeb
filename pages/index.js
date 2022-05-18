@@ -7,7 +7,7 @@ export default function Home() {
     <Layout>
       <Title>Space X</Title>
 
-      <p>Web desarrollada por la comadreja martina</p>
+      <p>Web desarrollada por luciano vannelli</p>
 
       <Image
         src="/images/space.jpg"
